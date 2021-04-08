@@ -8,7 +8,7 @@ const Slider =() =>
 {
     return (
         <div className="carousel-wrapper">
-            <Carousel  useKeyboardArrows autoPlay={true} showThumbs={false}>
+            <Carousel  useKeyboardArrows autoPlay={true} showThumbs={false} infiniteLoop={true}>
                 <div>
                 <img src={image1} alt=""/>
                 </div>
