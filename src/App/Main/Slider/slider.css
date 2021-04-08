@@ -1,0 +1,23 @@
+.control-dots
+{
+    display:none;
+}
+.carousel-status
+{
+    display:none;
+}
+@media(min-width:992px)
+{
+    .carousel-wrapper
+    {
+        width: 945px!important;
+    }
+}
+@media(min-width:1200px)
+{
+    .carousel-wrapper
+    {
+        width: 1125px!important;
+    }
+}
+

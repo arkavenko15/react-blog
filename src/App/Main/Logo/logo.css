@@ -1,0 +1,43 @@
+.logo-block
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px;
+
+}
+
+
+.logo-img
+{
+    border: solid 2px #c55669;
+    border-radius: 10px;
+    box-shadow: #c55669 5px 5px;
+}
+.logo-description
+{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.logo-description>span
+{
+    display: inline-block;
+    margin-top: 20px;
+    color: #c55669;
+    text-transform: uppercase;
+}
+.logo-description>span::before,
+.logo-description>span::after
+{
+    position: absolute;
+    content: '';
+    width: 100%;
+    border-top: 2px solid rgb(147, 63, 63);
+    margin-top: .6em;
+}
+.logo-description> span:before {
+    margin-left: -102%;
+  }
+.logo-description > span:after {
+    margin-left: 2%;
+  }

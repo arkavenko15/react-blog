@@ -1,0 +1,25 @@
+.contact
+{
+    margin-right: 10px;
+    border-left: 3px solid #ff5e8e;
+    border-bottom: 3px solid #ff5e8e;
+    padding: 5px;
+    border-radius: 50%;
+}
+.contact:hover
+{
+    border-left: none;
+    border-bottom: none;
+    border-right: 3px solid #ff5e8e;
+    border-top: 3px solid #ff5e8e;
+    transition: 0.5s;
+}
+.share-btn
+{
+    border: #c57556 2px solid;
+    padding: 5px;
+}
+.share-btn:hover
+{
+    border-radius: 50%;
+}

@@ -1,0 +1,50 @@
+.search-block
+{
+    display: flex;
+    align-items: center;
+}
+.search-post
+{
+
+    position: relative;
+}
+.search-post>img
+{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.search-post>input::placeholder
+{
+    visibility: visible;
+}
+
+@media(max-width:576px)
+{
+    .search-post>input::placeholder
+    {
+        visibility: hidden;
+    }
+}
+@media(min-width:576px)
+{
+    .search-post>input::placeholder
+    {
+        visibility: hidden;
+    }
+
+}
+@media(min-width:768px)
+{
+    .search-post>input::placeholder
+    {
+        visibility: hidden;
+    }
+}
+@media(min-width:992px)
+{
+    .search-post>input::placeholder
+    {
+        visibility: visible;
+    }
+}
