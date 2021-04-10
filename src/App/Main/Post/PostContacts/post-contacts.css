@@ -16,10 +16,13 @@
 }
 .share-btn
 {
+    display: flex;
+    align-items: center;
     border: #c57556 2px solid;
     padding: 5px;
 }
 .share-btn:hover
 {
     border-radius: 50%;
+    transition: 0.4s;
 }

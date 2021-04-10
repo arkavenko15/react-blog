@@ -27,6 +27,9 @@
     text-decoration: none;
     color:#1f1f1f;
 }
+.post-img-sidebar img{
+    width: 100%;
+}
 .post-slider>.slick-prev
 {
     margin-left: -10px;
