@@ -35,6 +35,7 @@ body
     display: flex;
     margin-left: -15px;
     margin-right: -15px;
+    flex-wrap: wrap;
 
 }
 [class*="col-"]
