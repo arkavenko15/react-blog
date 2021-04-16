@@ -17,6 +17,11 @@
 {
     border-bottom: 1px solid #1f1f1f;
     padding: 10px 0px 10px;
+
+}
+a{
+    text-decoration: none;
+    color: #1f1f1f;
 }
 .categoria:hover
 {
@@ -26,6 +31,9 @@
 {
     text-decoration: none;
     color:#1f1f1f;
+}
+.post-categories{
+    text-decoration: none;
 }
 .post-img-sidebar img{
     width: 100%;

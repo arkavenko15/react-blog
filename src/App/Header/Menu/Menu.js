@@ -9,9 +9,9 @@ const Menu= ()=>
                     <li><a href="/">home</a></li>
                     <li><a href="/">posts</a></li>
                     <li><a href="/">features</a></li>
-                    <li><a href="/">travel</a></li>
-                    <li><a href="/">health</a></li>
-                    <li><a href="/">music</a></li>
+                    <li><a href="/">donate</a></li>
+                    <li><a href="/">about</a></li>
+                    <li><a href="/">authors</a></li>
                     <li><a href="/">contact</a></li>
                 </ul>
         </>

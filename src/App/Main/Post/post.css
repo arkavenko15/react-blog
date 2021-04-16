@@ -46,3 +46,8 @@
     margin: 10px 0px 10px;
 }
 
+.page-title{
+    padding: 15px 25px;
+    display: block;
+    background-color: #dd7349;
+}

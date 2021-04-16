@@ -8,8 +8,10 @@ import {Carousel} from 'react-responsive-carousel'
 import image1 from "./sidebar-img/image-1.jpg"
 import image2 from "./sidebar-img/image-2.jpg"
 import image3 from "./sidebar-img/image-3.jpg"
+import {Link} from 'react-router-dom'
 import "./sidebar.css"
 import "../Slider/slider.css"
+import posts from "../Post/postArr"
 const Sidebar =()=>
 {
     return(
@@ -45,13 +47,21 @@ const Sidebar =()=>
                             <hr className="title-underline-1"></hr>
                             <hr className="title-underline-2"></hr>
                         </div>
-                        <a href="/" ><div className="categoria">HEALTH(28)</div></a>
-                        <a href="/"><div className="categoria">TECHNOLOGIES(95)</div></a>
-                        <a href="/"><div className="categoria">LIFE STYLE(65)</div></a>
-                        <a href="/"><div className="categoria">MUSIC(49)</div></a>
-                        <a href="/"><div className="categoria">EDUCATION(39)</div></a>
-                        <a href="/"><div className="categoria">TRAVEL(98)</div></a>
-                        <a href="/"><div className="categoria">WEB DEVELOPMENT(25)</div></a>
+                        <Link to="WEB DEVELOPMENT" ><a href="/"><div className="categoria">WEB DEVELOPMENT(25)</div></a></Link>
+                        <Link to="HEALTH"><a href="/" ><div className="categoria">HEALTH(28)</div></a></Link>
+                        <Link to="TECHNOLOGIES"><a href="/"><div className="categoria">TECHNOLOGIES(95)</div></a></Link>
+                        <Link to="LIFE STYLE"><a href="/"><div className="categoria">LIFE STYLE(65)</div></a></Link>
+                        <Link to="MUSIC"><a href="/"><div className="categoria">MUSIC(49)</div></a></Link>
+                        <Link to="EDUCATION"><a href="/"><div className="categoria">EDUCATION(39)</div></a></Link>
+                        <Link to="TRAVEL"><a href="/"><div className="categoria">TRAVEL(98)</div></a></Link>                       
+                        <Link to="DESIGN"><a href="/"><div className="categoria">DESIGN(99)</div></a></Link>
+
+                        
+                        
+                        
+                        
+                        
+                        
                     </div>
                     <div className="instagram-sidebar">
                         <div className="sidebar-title">INSTAGRAM</div>
