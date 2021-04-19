@@ -3,10 +3,9 @@ import Logo from './Logo/Logo'
 import Slider from './Slider/Slider'
 import Sidebar from './Sidebar/Sidebar'
 import PostList from './Post/PostList'
-
-
-
-
+import PostPage from './Post/PostPage'
+import {Route} from 'react-router-dom'
+import CategoryPage from './Post/CategoryPage'
 const Main=()=>
 {
     return(
@@ -25,18 +24,21 @@ const Main=()=>
                         <Slider/>
                     </div>
                 </div>
-            </div>
+            </div> 
             <div className="container ">
                 <div className="row">  
                     <div className="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9 inside">
-                        <PostList/>
+                        <Route path="/"exact component={PostList} />
+                        <Route path="/posts/:id" component={PostPage} />
+                        <Route path="/category/:categoria" component={CategoryPage}/>
+
+
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 sidebar">
                             <Sidebar/>
                     </div>
                 </div>
             </div>  
-
         </>
     )
 }

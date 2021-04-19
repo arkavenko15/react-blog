@@ -9,9 +9,9 @@ import image1 from "./sidebar-img/image-1.jpg"
 import image2 from "./sidebar-img/image-2.jpg"
 import image3 from "./sidebar-img/image-3.jpg"
 import {Link} from 'react-router-dom'
+import search from "./sidebar-img/search.png"
 import "./sidebar.css"
 import "../Slider/slider.css"
-import posts from "../Post/postArr"
 const Sidebar =()=>
 {
     return(
@@ -23,7 +23,7 @@ const Sidebar =()=>
                     </div>
                     <div className="search-post">
                         <input type="text" placeholder="SEARCH" className="search"/>
-                        <img src="./sidebar-img/search.png" alt=""/>
+                        <img src={search} alt=""/>
                     </div>
                     <div className="popular-post">
                         <div className="sidebar-title">POPULAR POST</div>
@@ -47,14 +47,14 @@ const Sidebar =()=>
                             <hr className="title-underline-1"></hr>
                             <hr className="title-underline-2"></hr>
                         </div>
-                        <Link to="WEB DEVELOPMENT" ><a href="/"><div className="categoria">WEB DEVELOPMENT(25)</div></a></Link>
-                        <Link to="HEALTH"><a href="/" ><div className="categoria">HEALTH(28)</div></a></Link>
-                        <Link to="TECHNOLOGIES"><a href="/"><div className="categoria">TECHNOLOGIES(95)</div></a></Link>
-                        <Link to="LIFE STYLE"><a href="/"><div className="categoria">LIFE STYLE(65)</div></a></Link>
-                        <Link to="MUSIC"><a href="/"><div className="categoria">MUSIC(49)</div></a></Link>
-                        <Link to="EDUCATION"><a href="/"><div className="categoria">EDUCATION(39)</div></a></Link>
-                        <Link to="TRAVEL"><a href="/"><div className="categoria">TRAVEL(98)</div></a></Link>                       
-                        <Link to="DESIGN"><a href="/"><div className="categoria">DESIGN(99)</div></a></Link>
+                        <Link to="/category/WEB DEVELOPMENT"> <div className="categoria">WEB DEVELOPMENT(25)</div></Link>
+                        <Link to="/category/HEALTH"><div className="categoria">HEALTH(28)</div></Link>
+                        <Link to="/category/TECHNOLOGIES"><div className="categoria">TECHNOLOGIES(95)</div></Link>
+                        <Link to="/category/LIFE STYLE"><div className="categoria">LIFE STYLE(65)</div></Link>
+                        <Link to="/category/MUSIC"><div className="categoria">MUSIC(49)</div></Link>
+                        <Link to="/category/EDUCATION"><div className="categoria">EDUCATION(39)</div></Link>
+                        <Link to="/category/TRAVEL"><div className="categoria">TRAVEL(98)</div></Link>                       
+                        <Link to="/category/DESIGN"><div className="categoria">DESIGN(99)</div></Link>
 
                         
                         
