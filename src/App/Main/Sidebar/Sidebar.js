@@ -47,21 +47,14 @@ const Sidebar =()=>
                             <hr className="title-underline-1"></hr>
                             <hr className="title-underline-2"></hr>
                         </div>
-                        <Link to="/category/WEB DEVELOPMENT"> <div className="categoria">WEB DEVELOPMENT(25)</div></Link>
-                        <Link to="/category/HEALTH"><div className="categoria">HEALTH(28)</div></Link>
-                        <Link to="/category/TECHNOLOGIES"><div className="categoria">TECHNOLOGIES(95)</div></Link>
-                        <Link to="/category/LIFE STYLE"><div className="categoria">LIFE STYLE(65)</div></Link>
-                        <Link to="/category/MUSIC"><div className="categoria">MUSIC(49)</div></Link>
-                        <Link to="/category/EDUCATION"><div className="categoria">EDUCATION(39)</div></Link>
-                        <Link to="/category/TRAVEL"><div className="categoria">TRAVEL(98)</div></Link>                       
-                        <Link to="/category/DESIGN"><div className="categoria">DESIGN(99)</div></Link>
-
-                        
-                        
-                        
-                        
-                        
-                        
+                        <Link to="/react-blog/category/WEB DEVELOPMENT" > <div className="categoria">WEB DEVELOPMENT(25)</div></Link>
+                        <Link to="/react-blog/category/HEALTH"><div className="categoria">HEALTH(28)</div></Link>
+                        <Link to="/react-blog/category/TECHNOLOGIES"><div className="categoria">TECHNOLOGIES(95)</div></Link>
+                        <Link to="/react-blog/category/LIFE STYLE"><div className="categoria">LIFE STYLE(65)</div></Link>
+                        <Link to="/react-blog/category/MUSIC"><div className="categoria">MUSIC(49)</div></Link>
+                        <Link to="/react-blog/category/EDUCATION"><div className="categoria">EDUCATION(39)</div></Link>
+                        <Link to="/react-blog/category/TRAVEL"><div className="categoria">TRAVEL(98)</div></Link>                       
+                        <Link to="/react-blog/category/DESIGN"><div className="categoria">DESIGN(99)</div></Link>             
                     </div>
                     <div className="instagram-sidebar">
                         <div className="sidebar-title">INSTAGRAM</div>

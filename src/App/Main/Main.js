@@ -29,8 +29,8 @@ const Main=()=>
                 <div className="row">  
                     <div className="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9 inside">
                         <Route path="/"exact component={PostList} />
-                        <Route path="/posts/:id" component={PostPage} />
-                        <Route path="/category/:categoria" component={CategoryPage}/>
+                        <Route path="/posts/:id" exact component={PostPage} />
+                        <Route path="/category/:categoria" exact component={CategoryPage}/>
 
 
                     </div>

@@ -21,10 +21,10 @@ const CategoryPage = ({
                     author,
                     date,
                     description,
-                    image
+                    image,
                 } )=>(
 
-                    <div className="col-lg-12 col-xl-12 col-md-12 col-xs-12 col-sm-12"> 
+                    <div className="col-lg-12 col-xl-12 col-md-12 col-xs-12 col-sm-12" key={id}> 
                         <Post
                             id={id}
                             categoria={categoria}

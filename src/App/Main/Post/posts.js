@@ -2,7 +2,7 @@ const posts=
 [
     {
         id:1,
-        image:"images/image-1.jpg",
+        image:"react-blog/images/image-1.jpg",
         categoria: "HEALTH",
         title: "Stay focus and safe",
         author: "JHODE DOE",
@@ -14,7 +14,7 @@ const posts=
     },
     {
         id:2,
-        image:"images/image-1.jpg",
+        image:"react-blog/images/image-2.jpg",
         categoria: "TECHNOLOGIES",
         title: "Digest from IT-Company",
         author: "JHODE DOE",
@@ -26,7 +26,7 @@ const posts=
     },
     {
         id:3,
-        image:"images/image-1.jpg",
+        image:"react-blog/images/image-3.jpg",
         categoria: "HEALTH",
         title: "All you need to know about Human's being",
         author: "JHODE DOE",
@@ -38,7 +38,7 @@ const posts=
     },
     {
         id:4,
-        image:"images/image-1.jpg",
+        image:"react-blog/images/image-1.jpg",
         categoria: "TECHNOLOGIES",
         title: "Hot Vacancies",
         author: "JHODE DOE",
@@ -50,7 +50,7 @@ const posts=
     },
     {
         id:5,
-        image:"images/image-1.jpg",
+        image:"react-blog/images/image-1.jpg",
         categoria: "LIFE STYLE",
         title: "Make Life easier with yoga",
         author: "JHODE DOE",
